@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	border: 0;
+}
+body{
+	background-color: #12cc15
+}
+.menu {
+	list-style: none;
+	padding: 0;
+	background-color: #088A08;
+	width: 50%;
+	max-width: 491px;
+	margin: auto;
+}
+.menu_productos{
+	list-style: none;
+	padding: 0;
+	background-color: #088A08;
+	width: 50%;
+	max-width: 390px;
+	margin: auto;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+.menu_productos li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+.menu_productos li{
+	display: inline-block;
+	text-align: center;
+}
+.menu li a:hover{
+	background-color: #1cd520
+}
+.menu_productos li a:hover{
+	background-color: #1cd520
+}
+footer, section#Latas{
+	margin-top: .3em;
+	background-color: #038803;
+}
+.Lata{
+	transition: 5s;
+}
+.Lata:hover{
+	transform:rotate(360deg);
+}
+
+
+.nombre_producto{
+	padding-top: 20px;
+	font-style: italic;
+	font-size: 42px;
+	text-align: center;
+}
+
+.producto_imagen{
+	width: 300px;
+	width: 300px;
+	display: block;
+	margin: auto;
+}
+
+.login{
+	margin: 30px;
+	padding: 20px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: orange;
+	font-style: italic;
+	border-radius: 15px;
+	max-width: 250px;
+	display:flex;
+	align-items: center;
+	margin: auto;
+}
+
+input{
+	font-style: italic;
+	border-radius: 5px;
+	background-color: #86fe4e;
+	width: 250px;
+}
+
+.registro{
+	align-content: center;
+	margin: 15px;
+	padding: 15px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: orange;
+	border-radius: 15px;
+}
+
+#Boton{
+	background-color: #51ff00;
+	width: 200px;
+}
+
+
+.error {
+	margin: 20px;
+	text-align: center;
+	-webkit-text-fill-color: red;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	font-style: italic;
+	font-size: 32px;
+	text-emphasis: none;
+}
+
+.bienvenido {
+	margin: 20px;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 50%;
+	align-content: center;
+	display: flexbox;
+	margin: 20px auto;
+}
+
+td, th {
+	border: 1px solid #3c9200;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #03b423;
+}
